@@ -13,7 +13,7 @@ const calculate = () =>  {
 
     summ.addEventListener('click', function() {
        let all = eval(total.value);
-        console.log(all);
+        // console.log(all);
         total.value = all;
 });
 
